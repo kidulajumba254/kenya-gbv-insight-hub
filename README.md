@@ -14,8 +14,7 @@ The Kenya GBV Insight Hub is a comprehensive analytics platform designed to trac
 - Case resolution rate tracking
 - Emergency hotline call monitoring
 ![image](https://github.com/user-attachments/assets/4d08f0f6-086e-4284-b825-9a2cc54865c9)
-
-
+![image](https://github.com/user-attachments/assets/ba423a24-2049-4a24-ae23-5320258f6c2a)
 ### 🗺️ Geographic Analysis
 - County-by-county incident mapping
 - High-risk area identification
