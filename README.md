@@ -1,73 +1,259 @@
-# Welcome to your Lovable project
 
-## Project info
+# Kenya GBV Insight Hub
 
-**URL**: https://lovable.dev/projects/a9cd9180-a860-40df-8b80-78c6b03bb605
+## Analytics-Driven Violence Prevention Platform
 
-## How can I edit this code?
+The Kenya GBV Insight Hub is a comprehensive analytics platform designed to track, analyze, and predict Gender-Based Violence (GBV) trends across Kenya. This platform empowers policymakers, NGOs, law enforcement agencies, and community organizations to make data-driven decisions for effective resource allocation and targeted interventions.
 
-There are several ways of editing your application.
+## 🌟 Features
 
-**Use Lovable**
+### 📊 Dashboard Analytics
+- Real-time incident tracking and reporting
+- Key performance indicators (KPIs) monitoring
+- Monthly trend analysis with visual charts
+- Case resolution rate tracking
+- Emergency hotline call monitoring
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a9cd9180-a860-40df-8b80-78c6b03bb605) and start prompting.
+### 🗺️ Geographic Analysis
+- County-by-county incident mapping
+- High-risk area identification
+- Geographic trend visualization
+- Resource allocation mapping
 
-Changes made via Lovable will be committed automatically to this repo.
+### 📈 Trend Analysis
+- Historical data analysis
+- Seasonal pattern identification
+- Incident type distribution
+- Comparative analytics across regions
 
-**Use your preferred IDE**
+### 🎯 Resource Allocation
+- Data-driven resource recommendations
+- Budget allocation insights
+- Service provider network optimization
+- Community program effectiveness tracking
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 📝 Incident Reporting
+- Secure incident reporting interface
+- Multi-channel reporting support
+- Case management integration
+- Follow-up tracking system
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 🔮 Predictive Analytics
+- AI-powered incident forecasting
+- Risk factor analysis
+- Intervention recommendation engine
+- Early warning system for high-risk periods
 
-Follow these steps:
+## 🎨 Design Features
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- **Modern UI/UX**: Built with shadcn/ui components and Tailwind CSS
+- **Responsive Design**: Optimized for desktop, tablet, and mobile devices
+- **Roboto Typography**: Clean, readable font family throughout the platform
+- **Kenyan Cultural Elements**: Design elements celebrating Kenyan heritage
+- **Accessible Design**: WCAG compliant interface design
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🚀 Technology Stack
 
-# Step 3: Install the necessary dependencies.
-npm i
+- **Frontend**: React 18 with TypeScript
+- **Build Tool**: Vite for fast development and building
+- **Styling**: Tailwind CSS with custom design tokens
+- **UI Components**: shadcn/ui component library
+- **Charts**: Recharts for data visualization
+- **Icons**: Lucide React icons
+- **State Management**: React Query (TanStack Query)
+- **Routing**: React Router DOM
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## 📦 Installation
+
+### Prerequisites
+- Node.js (v18 or higher)
+- npm or yarn package manager
+
+### Setup Instructions
+
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd kenya-gbv-insight-hub
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser**
+   Navigate to `http://localhost:5173` to view the application
+
+## 🏗️ Project Structure
+
+```
+src/
+├── components/           # Reusable UI components
+│   ├── ui/              # shadcn/ui components
+│   ├── Dashboard.tsx    # Main dashboard component
+│   ├── GeographicView.tsx
+│   ├── TrendAnalysis.tsx
+│   ├── ResourceAllocation.tsx
+│   ├── IncidentReporting.tsx
+│   └── PredictiveAnalytics.tsx
+├── pages/               # Page components
+│   ├── Index.tsx        # Main application page
+│   └── NotFound.tsx     # 404 error page
+├── hooks/               # Custom React hooks
+├── lib/                 # Utility functions
+├── styles/              # Global styles
+└── main.tsx            # Application entry point
 ```
 
-**Edit a file directly in GitHub**
+## 📊 Data Sources
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+The platform is designed to integrate with multiple data sources:
 
-**Use GitHub Codespaces**
+- **Government Databases**: Ministry of Gender, Children and Social Development
+- **Law Enforcement**: National Police Service incident reports
+- **Healthcare Systems**: Hospital and clinic records (anonymized)
+- **NGO Networks**: Partner organization reporting systems
+- **Community Reports**: Citizen reporting platforms
+- **Emergency Services**: National emergency hotline data
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🔐 Security & Privacy
 
-## What technologies are used for this project?
+- **Data Anonymization**: All personal identifiers are removed or encrypted
+- **Access Control**: Role-based access to sensitive information
+- **Audit Trail**: Complete logging of all data access and modifications
+- **Compliance**: Adherence to Kenya Data Protection Act 2019
+- **Secure Communication**: HTTPS encryption for all data transmission
 
-This project is built with:
+## 🎯 Target Users
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Policymakers
+- Government officials at national and county levels
+- Ministry of Gender, Children and Social Development
+- Kenya National Commission on Human Rights
 
-## How can I deploy this project?
+### Law Enforcement
+- National Police Service
+- Directorate of Criminal Investigations (DCI)
+- County security committees
 
-Simply open [Lovable](https://lovable.dev/projects/a9cd9180-a860-40df-8b80-78c6b03bb605) and click on Share -> Publish.
+### NGOs & Civil Society
+- Gender-focused organizations
+- Women's rights groups
+- Community-based organizations
+- International development partners
 
-## Can I connect a custom domain to my Lovable project?
+### Healthcare Providers
+- Public health officials
+- Medical professionals
+- Counseling services
+- Trauma centers
 
-Yes, you can!
+## 📈 Impact Metrics
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+The platform tracks several key impact indicators:
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+- **Response Time**: Average time from incident report to intervention
+- **Resolution Rate**: Percentage of cases successfully resolved
+- **Prevention Effectiveness**: Reduction in repeat incidents
+- **Resource Efficiency**: Cost per intervention and outcome achieved
+- **Geographic Coverage**: Percentage of population with access to services
+
+## 🤝 Contributing
+
+We welcome contributions from developers, data scientists, and domain experts. Please read our contributing guidelines and code of conduct before submitting pull requests.
+
+### Development Guidelines
+1. Follow TypeScript best practices
+2. Use semantic commit messages
+3. Write comprehensive tests
+4. Maintain documentation
+5. Respect data privacy requirements
+
+## 📱 Mobile Responsiveness
+
+The platform is fully responsive and optimized for:
+- Desktop computers (1024px and above)
+- Tablets (768px - 1023px)
+- Mobile phones (320px - 767px)
+
+## 🌍 Localization
+
+Currently supported languages:
+- English (Primary)
+- Swahili (Planned)
+- Local languages (Future releases)
+
+## 📞 Support & Contact
+
+For technical support, feature requests, or data partnership inquiries:
+
+- **Email**: support@gbv-insight-hub.ke
+- **Phone**: +254-XXX-XXXXXX
+- **Website**: https://gbv-insight-hub.ke
+- **Documentation**: https://docs.gbv-insight-hub.ke
+
+## 📜 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🙏 Acknowledgments
+
+- Ministry of Gender, Children and Social Development of Kenya
+- UN Women Kenya
+- Kenya National Commission on Human Rights
+- Partner NGOs and civil society organizations
+- Technology partners and open-source contributors
+
+## 🚀 Deployment
+
+### Production Deployment
+The application can be deployed on any static hosting service:
+
+1. **Build for production**
+   ```bash
+   npm run build
+   ```
+
+2. **Deploy the `dist` folder** to your hosting service of choice:
+   - Vercel
+   - Netlify
+   - AWS S3 + CloudFront
+   - Digital Ocean
+
+### Environment Variables
+Configure the following environment variables for production:
+- `VITE_API_BASE_URL`: Backend API endpoint
+- `VITE_SUPABASE_URL`: Supabase project URL (if using)
+- `VITE_SUPABASE_ANON_KEY`: Supabase anonymous key
+
+## 📋 Roadmap
+
+### Phase 1 (Current)
+- ✅ Core analytics dashboard
+- ✅ Geographic visualization
+- ✅ Trend analysis
+- ✅ Predictive modeling
+
+### Phase 2 (Q1 2025)
+- 🔄 Real-time data integration
+- 🔄 Mobile application
+- 🔄 SMS reporting system
+- 🔄 Multi-language support
+
+### Phase 3 (Q2 2025)
+- 📅 Advanced AI models
+- 📅 Community engagement tools
+- 📅 Integration with existing systems
+- 📅 Training and capacity building
+
+---
+
+**Together, we can build a safer Kenya for all women and girls.**
+
+*This platform is developed with love and commitment to ending gender-based violence in Kenya.*
