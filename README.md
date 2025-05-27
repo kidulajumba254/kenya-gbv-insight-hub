@@ -13,6 +13,7 @@ The Kenya GBV Insight Hub is a comprehensive analytics platform designed to trac
 - Monthly trend analysis with visual charts
 - Case resolution rate tracking
 - Emergency hotline call monitoring
+![image](https://github.com/user-attachments/assets/4d08f0f6-086e-4284-b825-9a2cc54865c9)
 
 
 ### 🗺️ Geographic Analysis
@@ -20,30 +21,39 @@ The Kenya GBV Insight Hub is a comprehensive analytics platform designed to trac
 - High-risk area identification
 - Geographic trend visualization
 - Resource allocation mapping
+![image](https://github.com/user-attachments/assets/bce58fc2-c59c-4ef6-b0ef-b6d09f17484f)
 
 ### 📈 Trend Analysis
 - Historical data analysis
 - Seasonal pattern identification
 - Incident type distribution
 - Comparative analytics across regions
+![image](https://github.com/user-attachments/assets/eab9beb1-8be5-4ebb-8d74-66371d6fd9ee)
 
 ### 🎯 Resource Allocation
 - Data-driven resource recommendations
 - Budget allocation insights
 - Service provider network optimization
 - Community program effectiveness tracking
+- ![image](https://github.com/user-attachments/assets/fa5527a6-5a41-43eb-b548-61a3ad324ff4)
+
 
 ### 📝 Incident Reporting
 - Secure incident reporting interface
 - Multi-channel reporting support
 - Case management integration
 - Follow-up tracking system
+- ![image](https://github.com/user-attachments/assets/68ed13ea-d670-4f9e-a9b3-eaab8e8bb495)
+
 
 ### 🔮 Predictive Analytics
 - AI-powered incident forecasting
+- ![image](https://github.com/user-attachments/assets/a5ed741c-1eb4-4893-b587-dff355facdb5)
 - Risk factor analysis
 - Intervention recommendation engine
 - Early warning system for high-risk periods
+- ![image](https://github.com/user-attachments/assets/0b0592fd-8afa-48f4-88ba-19e113271f1b)
+
 
 ## 🎨 Design Features
 
