@@ -84,7 +84,7 @@ The Kenya GBV Insight Hub is a comprehensive analytics platform designed to trac
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/kidulajumba254/kenya-gbv-insight-hub.git
    cd kenya-gbv-insight-hub
    ```
 
