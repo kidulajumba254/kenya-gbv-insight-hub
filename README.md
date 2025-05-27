@@ -197,7 +197,6 @@ For technical support, feature requests, or data partnership inquiries:
 
 - **Email**: kidulajesse@gmail.com
 - **Phone**: +254-758-301141
-- **Website**: https://gbv-insight-hub.ke
 
 ## 📜 License
 
